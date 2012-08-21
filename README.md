@@ -7,8 +7,8 @@ server to be used by other plugins in an architect driven system
 
 ```json
 {
-  packagePath: "./node_modules/architect-express",
-  port: 3000
+  "packagePath": "./node_modules/architect-express",
+  "port": 3000
 }
 ```
 
