@@ -1,0 +1,27 @@
+{
+  "name": "architect-express",
+  "description": "Express plugin for Architect",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": {
+    "name": "Nujii Labs",
+    "email": "developer@nujii.com"
+  },
+  "contributors": [ 
+    { "name": "Cameron Bytheway", "email": "cameron@nujii.com" }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nujii/architect-express.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "~2.5.11",
+    "connect": "~2.4.3",
+    "architect-logger": "~0.0.1"
+  },
+  "plugin": {
+    "consumes": ["logger"],
+    "provides": ["express"]
+  }
+}
