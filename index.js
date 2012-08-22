@@ -9,7 +9,7 @@ module.exports = function (options, imports, register) {
 
   server.use(connect.logger({
     stream: {
-      write: imports.logger.debug(log)
+      write: imports.logger.debug
     }
   }));
 
