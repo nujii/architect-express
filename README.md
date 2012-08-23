@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/nujii/architect-express.png)](http://travis-ci.org/nujii/architect-express)
 # architect-express
 
 This plugin allows for easy creation/configuration on an express 
