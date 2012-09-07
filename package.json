@@ -16,8 +16,8 @@
   },
   "license": "MIT",
   "dependencies": {
-    "express": "~2.5.11",
-    "connect": "~2.4.3",
+    "express": "~3.0.0",
+    "connect": "~2.4.4",
     "architect-logger": "~0.0.1"
   },
   "plugin": {

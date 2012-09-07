@@ -5,7 +5,7 @@ module.exports = function (options, imports, register) {
   var express = require('express');
   var connect = require('connect');
   
-  var server = express.createServer();
+  var server = express();
 
   server.use(connect.logger({
     stream: {
