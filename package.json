@@ -1,7 +1,7 @@
 {
   "name": "architect-express",
   "description": "Express plugin for Architect",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "main": "index.js",
   "author": {
     "name": "Nujii Labs",
