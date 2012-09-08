@@ -3,13 +3,12 @@ module.exports = function (options, imports, register) {
 
   // load node modules required by this plugin
   var express = require('express');
-  var connect = require('connect');
   
   var server = express();
 
-  server.use(connect.logger({
+  server.use(express.logger({
     stream: {
-      write: imports.logger.debug
+      write: imports.logger.verbose
     }
   }));
 
